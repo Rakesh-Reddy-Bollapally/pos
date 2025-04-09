@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POSITION</title>
+    <style>
+        * {
+            margin: 0px;
+            
+        }
+        .nav{
+            top:0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            background-color: black;
+            color:wheat;
+            width:100%;
+            height: 45px;
+            font-size: 25px;
+            gap:15px;
+
+        }
+        .python {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            visibility: hidden;
+            border: 2px solid black;
+            border-radius: 15px;
+            width: 600px;
+            background-color: beige;
+            font-size: 20px;
+            margin-left: 5px;
+            margin-top: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .css{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            visibility: hidden;
+            border: 2px solid black;
+            border-radius: 15px;
+            width: 600px;
+            background-color: beige;
+            margin-left:5px;
+            margin-top: 20px;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+        .htm{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            visibility: hidden;
+            border: 2px solid black;
+            border-radius: 15px;
+            width: 600px;
+            background-color:beige;
+            margin-left: 5px;
+            margin-top: 20px;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+
+        div:hover div {
+            visibility: visible;
+
+    
+        }
+        
+    </style>
+</head>
+
+<body>
+    
+    <div class="nav">
+        <span>PYTHON</span> <span>CSS</span> <span>HTML</span>
+    </div>
+    
+    <div>
+        <h1 style="margin-top: 60px;margin-left:20px;">PYTHON</h1>
+        <div class="python">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/480px-Python.svg.png"
+                height="200" width="200" alt="">
+            <p>Python is a high-level, interpreted programming language known for its readability and simplicity. It supports multiple programming paradigms, including object-oriented, procedural, and functional programming. Python's extensive standard library and active community make it popular for web development, data analysis, machine learning, and automation tasks.</p>
+        </div>
+    </div>
+    <div>
+        <h1 style="margin-top: 10px;margin-left:20px">CSS</h1><br>
+        <div class="css">
+            <img src="https://coryrylan.com/assets/images/posts/types/css.svg"
+                height="200" width="200" alt="">
+            <p>CSS (Cascading Style Sheets) is a stylesheet language used to define the look and feel of web pages. It controls the layout, design, and visual elements like colors, fonts, and spacing. CSS works alongside HTML to create attractive, responsive, and user-friendly websites, enhancing the web page’s appearance.</p>
+        </div>
+    </div>
+    <div>
+        <h1 style="margin-top: 1px;margin-left:20px">HTML</h1><br>
+        <div class="htm">
+            <img src="https://d502jbuhuh9wk.cloudfront.net/courses/6570c175e4b00d436e1c89c0/6570c175e4b00d436e1c89c0_scaled_cover.jpg?v=1"
+                height="200" width="200" alt="">
+            <p>HTML (HyperText Markup Language) is the standard language used to create and structure content on the web. It defines elements like headings, paragraphs, links, images, and forms using tags. HTML forms the backbone of webpages, providing the structure for content that can be styled and enhanced with CSS and JavaScript.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
